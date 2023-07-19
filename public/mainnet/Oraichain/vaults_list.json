@@ -1,0 +1,24 @@
+{
+  "factory": "orai1cvl2tca582wx3799xaf9wz9qdlf70raxg7gfnxrrcr2lt2pemtpsc6eyxl",
+  "vaults": [
+    {
+      "pool_id": "ORAI",
+      "vault_assets": {
+        "id": "oraichain-token",
+        "chain_id": "Oraichain",
+        "token_address": "orai",
+        "symbol": "ORAI",
+        "name": "Oraichain",
+        "decimals": 6,
+        "logoURI": "/logos/orai.svg",
+        "tags": ["native"],
+        "native": true,
+        "denom": "orai"
+      },
+      "lp_token": "orai1zvqv2h6yu45aawfzsx2vgwqkqf3uat5vlyszhy0xgz9qndgqqpzs666vwp",
+      "vault_address": "orai16kdm27kqzcl95h5m9xp7vrtk8a8uccw4xp2cyvxvdgs2xfqvmu9smct7t6",
+      "staking_address": "",
+      "rewards_tokens": []
+    }
+  ]
+}

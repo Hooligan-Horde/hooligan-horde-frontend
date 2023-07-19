@@ -1,0 +1,70 @@
+{
+  "name": "Pools list on Oraichain mainnet",
+  "logoURI": "/img/logo.svg",
+  "keywords": ["special tokens"],
+  "tags": {
+    "ProjectName": {
+      "name": "White Whale",
+      "description": "Tokens that are listed on Project"
+    }
+  },
+  "timestamp": "2021-06-12T00:00:00+00:00",
+  "base_token": {
+    "id": "oraichain-token",
+    "chain_id": "Oraichain",
+    "token_address": "orai",
+    "symbol": "ORAI",
+    "name": "Oraichain",
+    "decimals": 6,
+    "logoURI": "/logos/orai.svg",
+    "tags": ["native"],
+    "native": true,
+    "denom": "orai"
+  },
+  "routerAddress": "orai1wa2vukkfprf8n2g8exwn72kw3vrc0k6a9lu77jdp9ujdtg9ysp5qlljyq0",
+  "pools": [
+    {
+      "pool_id": "ORAI-WHALE",
+      "lpOrder": ["WHALE", "ORAI"],
+      "assetOrder": ["ORAI", "WHALE"],
+      "displayName": "ORAI-WHALE",
+      "displayLogo1": "/logos/ORAI.png",
+      "displayLogo2": "/logos/whale.svg",
+      "pool_assets": [
+        {
+          "id": "oraichain-token",
+          "chain_id": "Oraichain",
+          "token_address": "orai",
+          "symbol": "ORAI",
+          "name": "Oraichain",
+          "decimals": 6,
+          "logoURI": "/logos/orai.svg",
+          "tags": ["native"],
+          "native": true,
+          "denom": "orai"
+        },
+        {
+          "id": "whale-token",
+          "chain_id": "Oraichain",
+          "token_address": "ibc/EC08C324BF3953250AC252B5AA671DCE6F87C37B2648014B3BEDE5C3D292719E",
+          "symbol": "WHALE",
+          "name": "WHALE",
+          "decimals": 6,
+          "logoURI": "/logos/whale.svg",
+          "tags": ["native"],
+          "native": true,
+          "denom": "ibc/EC08C324BF3953250AC252B5AA671DCE6F87C37B2648014B3BEDE5C3D292719E"
+        }  
+      ],
+      "lp_token": "orai1l52vahyucq3f9p7au844cv5ns27mz2rd8m4qcdwmlfm8wrcgkydqga3lqp",
+      "swap_address": "orai1t64ptnzseltvchr4ngsx2e7q3a69ws8k8j85fum5p5t8ya063apqwmdt4h",
+      "staking_address": "",
+      "rewards_tokens": []
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}
